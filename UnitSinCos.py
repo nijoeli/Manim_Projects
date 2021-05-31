@@ -9,7 +9,7 @@ class UnitSinCos(Scene):
         radius = 2
         circle = Circle(radius).set_color(WHITE)
 
-        angle = math.pi
+        angle = 0
         dot = Dot(point=[radius*math.cos(angle), radius*math.sin(angle), 0]).set_color(GRAY_B)
 
         radiusU = VMobject()
